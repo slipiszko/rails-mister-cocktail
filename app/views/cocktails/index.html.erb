@@ -1,0 +1,9 @@
+<h1>Cocktails</h1>
+
+<div class="card-category-container justify-content-around" style="display: flex;">
+  <% @cocktails.each do |cocktail| %>
+    <div class="card-category">
+      <%= link_to cocktail.name, cocktail %>
+    </div>
+  <% end %>
+</div>

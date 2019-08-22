@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Cocktail.create!(name: "Mojito")
+Cocktail.create!(name: "Walk of Shame")
+Cocktail.create!(name: "Cuba Libre")
+Cocktail.create!(name: "Magarita")
+
+# Ingredient.create(name: "lemon")
+# Ingredient.create(name: "ice")
+# Ingredient.create(name: "mint leaves")
