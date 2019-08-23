@@ -9,4 +9,8 @@
   <% end %>
 </div>
 
+<%= link_to 'Delete cocktail', cocktail_path(@cocktail), method: :delete, data: { confirm: 'Are you sure?' } %>
+
+<br>
+
 <%= link_to 'View all cocktails', cocktails_path %>
